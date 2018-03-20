@@ -12,7 +12,7 @@ function start() {
     app.use(require('koa-static')(path.join(__dirname, '../lib/')));
 
     app.listen(8003, () => {
-        console.log(`phaser 应用启动
+        console.log(`phaser dd应用启动
         server 运作在8003端口
         `);
     });
